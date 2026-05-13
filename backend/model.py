@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 import time
 
-model = load_model("/Users/astitva/Desktop/archive (1)/studysphere_model.keras")
+model = load_model(os.path.join(os.path.dirname(__file__), "models", "model.keras"))
 face_cascade = cv2.CascadeClassifier(
     cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'
 )
