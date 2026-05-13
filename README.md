@@ -69,6 +69,19 @@ After downloading, place it at:
 backend/studysphere_model.keras
 ```
 ---
+## 📊 Model Performance
+
+| Metric | Value |
+|--------|-------|
+| Test Accuracy | 66.94% |
+| Test Loss | 0.6065 |
+| Validation Accuracy | 66.21% |
+
+> The model is a MobileNetV2 fine-tuned on a binary-restructured FER2013 dataset
+> (Understood / Not Understood). Accuracy reflects the challenge of real-world
+> classroom facial expression analysis under varying lighting, angles, and occlusions.
+
+---
 
 ##  Getting Started
 
