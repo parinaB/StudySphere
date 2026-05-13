@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# Machine Learning Models (do not push to GitHub!)
+*.keras
+*.h5
+*.pt
+
+# Node
+node_modules/
+dist/
+.env.local
