@@ -59,6 +59,16 @@ insights into how well their class is following along.
 | Dataset | FER2013 (binary: Understood / Not Understood) |
 
 ---
+## 🤖 Model
+
+The trained model is not included in this repo due to file size.
+Download it here: [studysphere_model.keras](https://drive.google.com/file/d/1OaTBxoKxjolwSjf3YY6Iw_eL0vSYHXsO/view?usp=drive_link)
+
+After downloading, place it at:
+```
+backend/studysphere_model.keras
+```
+---
 
 ##  Getting Started
 
@@ -67,6 +77,7 @@ insights into how well their class is following along.
 - Python 3.10 (conda `cnn` environment)
 - Node.js 18+
 - Webcam access
+
 
 ### 1. Clone the repo
 
