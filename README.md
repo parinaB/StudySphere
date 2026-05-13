@@ -82,7 +82,7 @@ backend/studysphere_model.keras
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/studysphere.git
+git clone https://github.com/parinaB/StudySphere.git
 cd studysphere
 ```
 
